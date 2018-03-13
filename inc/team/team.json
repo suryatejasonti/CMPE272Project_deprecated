@@ -1,0 +1,30 @@
+[ 
+    {
+        "name" : "Surya Sonti", 
+        "desitgnation": "Software Engineer",
+        "email": "surya.sonti@setmeon.com",
+        "address": "SJSU, San Jose, CA, 95112",
+        "number": "+11-225-888-888-66"
+    },
+    {
+        "name" : "Srikanth Maringanti", 
+        "desitgnation": "Software Engineer",
+        "email": "srikanth.maringanti@setmeon.com",
+        "address": "SJSU, San Jose, CA, 95112",
+        "number": "+11-225-888-888-66"
+    },
+    {
+        "name" : "Praveen Ogirala", 
+        "desitgnation": "Software Engineer",
+        "email": "praveen.ogirala@setmeon.com",
+        "address": "SJSU, San Jose, CA, 95112",
+        "number": "+11-225-888-888-66"
+    },
+    {
+        "name" : "Suresh Vairamuthu", 
+        "desitgnation": "Software Engineer",
+        "email": "suresh.vairamuthu@setmeon.com",
+        "address": "SJSU, San Jose, CA, 95112",
+        "number": "+11-225-888-888-66"
+    }
+] 

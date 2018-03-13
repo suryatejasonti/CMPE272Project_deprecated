@@ -37,7 +37,7 @@
                     <div class="menu_area">
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <!-- Logo -->
-                            <a class="navbar-brand" href="#">Ca.</a>
+                            <a class="navbar-brand" href="#">SetmeOn</a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false"
                                 aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -94,8 +94,8 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12 col-md">
                     <div class="wellcome-heading">
-                        <h2>Colorlib app</h2>
-                        <h3>C</h3>
+                        <h2>SetmeOn app</h2>
+                        <h3>SO</h3>
                         <p>Everything You Need. To Start Selling Online Beautifully</p>
                     </div>
                     <div class="get-start-area">
@@ -665,191 +665,18 @@
     <!-- ***** CTA Area End ***** -->
 
     <!-- ***** Our Team Area Start ***** -->
-    <section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>Our Team</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-1.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Jackson Nash</h4>
-                            <p>Tax Advice</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-2.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Alex Manning</h4>
-                            <p>CEO-Founder</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-3.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Ollie Schneider</h4>
-                            <p>Business Planner</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="single-team-member">
-                        <div class="member-image">
-                            <img src="img/team-img/team-4.jpg" alt="">
-                            <div class="team-hover-effects">
-                                <div class="team-social-icon">
-                                    <a href="#">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="member-text">
-                            <h4>Roger West</h4>
-                            <p>Financer</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <!-- ***** Our Team Area End ***** -->
 
     <!-- ***** Contact Us Area Start ***** -->
-    <section class="footer-contact-area section_padding_100 clearfix" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <!-- Heading Text  -->
-                    <div class="section-heading">
-                        <h2>Get in touch with us!</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                    <div class="footer-text">
-                        <p>We'll send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
-                    </div>
-                    <?php include('inc/contact/contact.php'); ?>
-                </div>
-                <div class="col-md-6">
-                    <!-- Form Start-->
-                    <div class="contact_from">
-                        <form action="#" method="post">
-                            <!-- Message Input Area Start -->
-                            <div class="contact_input_area">
-                                <div class="row">
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Your Message *" required></textarea>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <button type="submit" class="btn submit-btn">Send Now</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Message Input Area End -->
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include('inc/contact/contact.php'); ?>
     <!-- ***** Contact Us Area End ***** -->
 
     <!-- ***** Footer Area Start ***** -->
     <footer class="footer-social-icon text-center section_padding_70 clearfix">
         <!-- footer logo -->
         <div class="footer-text">
-            <h2>Ca.</h2>
+            <h2>SetmeOn</h2>
         </div>
         <!-- social icon-->
         <div class="footer-social-icon">
