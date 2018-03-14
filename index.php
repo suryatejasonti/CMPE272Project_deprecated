@@ -665,7 +665,7 @@
     <!-- ***** CTA Area End ***** -->
 
     <!-- ***** Our Team Area Start ***** -->
-
+    <?php include('inc/team/team.php'); ?>
     <!-- ***** Our Team Area End ***** -->
 
     <!-- ***** Contact Us Area Start ***** -->

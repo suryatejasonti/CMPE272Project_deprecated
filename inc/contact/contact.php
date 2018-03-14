@@ -1,4 +1,7 @@
 <?php
+$string = file_get_contents("inc/contact/contact.json");
+$json_a=json_decode($string,true);
+
 echo 
     '<section class="footer-contact-area section_padding_100 clearfix" id="contact">
     <div class="container">
@@ -11,30 +14,26 @@ echo
                 </div>
                 <div class="footer-text">
                     <p>We will send you epic weekly blogs, whitepapers and things to make your app startup thrive, all FREE!</p>
-                </div>';
-                
-                $string = file_get_contents("inc/contact/contact.json");
-                $json_a=json_decode($string,true);
-                
-                foreach ($json_a as $key => $value) 
-                {
-                    echo '<div class="address-text">
+                </div>
+                <div class="address-text">
                     <p>
-                    <span>Address:</span>';
-                    echo $value["address"]; echo '</p>
+                    <span>Address:</span>' .
+                    $json_a[0]["address"] .
+                     '</p>
                     </div>
                     <div class="phone-text">
                     <p>
-                        <span>Phone:</span>'; 
-                        echo $value["number"]; echo '</p>
+                    <span>Phone:</span>'.
+                    $json_a[0]["number"].
+                    '</p>
                     </div>
                     <div class="email-text">
                     <p>
-                        <span>Email:</span>'; 
-                        echo $value["email"]; echo '</p>
-                    </div>';
-                  }
-            echo '</div>
+                    <span>Email:</span>'.
+                    $json_a[0]["email"].
+                    '</p>
+                    </div>
+                    </div>
             <div class="col-md-6">
                 <!-- Form Start-->
                 <div class="contact_from">

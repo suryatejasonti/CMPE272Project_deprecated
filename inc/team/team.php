@@ -1,4 +1,6 @@
 <?php
+$string = file_get_contents("inc/team/team.json");
+$json_a=json_decode($string,true);
 echo '<section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
         <div class="container">
             <div class="row">
@@ -33,8 +35,12 @@ echo '<section class="our-Team-area bg-white section_padding_100_50 clearfix" id
                             </div>
                         </div>
                         <div class="member-text">
-                            <h4>';Jackson Nash;'</h4>
-                            <p>Tax Advice</p>
+                            <h4>'.
+                            $json_a[0]["name"].
+                            '</h4>
+                            <p>'.
+                            $json_a[0]["desitgnation"].
+                            '</p>
                         </div>
                     </div>
                 </div>
@@ -60,8 +66,12 @@ echo '<section class="our-Team-area bg-white section_padding_100_50 clearfix" id
                             </div>
                         </div>
                         <div class="member-text">
-                            <h4>Alex Manning</h4>
-                            <p>CEO-Founder</p>
+                            <h4>'.
+                            $json_a[1]["name"].
+                            '</h4>
+                            <p>'.
+                            $json_a[1]["desitgnation"].
+                            '</p>
                         </div>
                     </div>
                 </div>
@@ -87,8 +97,12 @@ echo '<section class="our-Team-area bg-white section_padding_100_50 clearfix" id
                             </div>
                         </div>
                         <div class="member-text">
-                            <h4>Ollie Schneider</h4>
-                            <p>Business Planner</p>
+                            <h4>'.
+                            $json_a[2]["name"].
+                            '</h4>
+                            <p>'.
+                            $json_a[2]["desitgnation"].
+                            '</p>
                         </div>
                     </div>
                 </div>
@@ -114,8 +128,12 @@ echo '<section class="our-Team-area bg-white section_padding_100_50 clearfix" id
                             </div>
                         </div>
                         <div class="member-text">
-                            <h4>Roger West</h4>
-                            <p>Financer</p>
+                            <h4>'.
+                            $json_a[3]["name"].
+                            '</h4>
+                            <p>'.
+                            $json_a[3]["desitgnation"].
+                            '</p>
                         </div>
                     </div>
                 </div>
