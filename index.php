@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Colorlib App - App Landing Page</title>
+    <title>setmeOn</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -55,13 +55,7 @@
                                         <a class="nav-link" href="#features">Features</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#screenshot">Screenshot</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#pricing">Pricing</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                                        <a class="nav-link" href="#News">News</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#team">Team</a>
@@ -96,7 +90,7 @@
                     <div class="wellcome-heading">
                         <h2>SetmeOn app</h2>
                         <h3>SO</h3>
-                        <p>Everything You Need. To Start Selling Online Beautifully</p>
+                        <p>Search Select Shop</p>
                     </div>
                     <div class="get-start-area">
                         <!-- Form Start -->
