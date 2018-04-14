@@ -65,7 +65,16 @@
                                     </li>
                                 </ul>
                                 <div class="sing-up-button d-lg-none">
-                                    <a href="#">Sign Up Free</a>
+                                <a id="validuser" class="dropdown-toggle" href="#"  data-toggle="dropdown">Sign in<strong class="caret"></strong></a>
+                                    <div id="sign" class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
+                                        <form id="signup">
+                                            <input style="margin-bottom: 15px;" type="text" placeholder="Username" id="username" name="username">
+                                            <input style="margin-bottom: 15px;" type="password" placeholder="Password" id="password" name="password">
+                                            <input class="btn btn-primary btn-block" type="button" id="sign-up" value="Sign Up">
+                                            <input class="btn btn-primary btn-block" type="button" id="sign-in" value="Sign In">
+                                            <label id="error" style="text-align:center;margin-top:5px"></label>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </nav>
@@ -73,14 +82,25 @@
                 </div>
                 <!-- Signup btn -->
                 <div class="col-12 col-lg-2">
-                    <div class="sing-up-button d-none d-lg-block">
-                        <a href="#">Sign Up Free</a>
+                    <div class="sing-up-button d-none d-lg-block dropdown">
+                       <a id="validuser" class="dropdown-toggle" href="#"  data-toggle="dropdown">Sign in<strong class="caret"></strong></a>
+						<div id="sign" class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
+							<form id="signup">
+								<input style="margin-bottom: 15px;" type="text" placeholder="Username" id="username" name="username">
+								<input style="margin-bottom: 15px;" type="password" placeholder="Password" id="password" name="password">
+								<input class="btn btn-primary btn-block" type="button" id="sign-up" value="Sign Up">
+								<input class="btn btn-primary btn-block" type="button" id="sign-in" value="Sign In">
+								<label id="error" style="text-align:center;margin-top:5px"></label>
+							</form>
+						</div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
+	
+	
 
     <!-- ***** Wellcome Area Start ***** -->
     <section class="wellcome_area clearfix" id="home">
@@ -729,6 +749,9 @@
     <script src="js/footer-reveal.min.js"></script>
     <!-- Active JS -->
     <script src="js/active.js"></script>
+	<!-- Sign in JS -->
+	<script src="js/sign.js"></script>
+	
 </body>
 
 </html>
