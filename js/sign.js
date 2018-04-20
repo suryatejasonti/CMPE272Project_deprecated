@@ -13,17 +13,19 @@ $(function () {
         
                 if (data == "saved") {
                     console.log(data);
-                    var classs = $('#validuser').attr('class');
-                    classs = classs.replace('dropdown-toggle','');
-                    $('#validuser').attr('class', classs);
-                    
+
                     $('#validuser').html($('#username').val());
                     
-                    $('#sign').remove();
+                    $('#sign').attr("class", "dropdown-menu");
+                    $('#validuser').attr("aria-expanded","false");
+
+                    $('#sign').html('<form id="signup"><input class="btn btn-primary btn-block" type="button" id="sign-out" value="Sign out"><label id="error" style="text-align:center;margin-top:5px"></label></form>');                   
                 } else {
                     $('#error').html(data);
                 }
-                
+                $.ajax({
+                url: 'js/sign.js'
+                }); 
          
     }).fail(function() {
      
@@ -43,10 +45,7 @@ $(function () {
          
             if (data == "valid") {
                     console.log(data);
-                    //var classs = $('#validuser').attr('class');
-                    //classs = classs.replace('dropdown-toggle','');
-                    //$('#validuser').attr('class', classs);
-                    
+
                     $('#validuser').html($('#username').val());
                     
                     $('#sign').attr("class", "dropdown-menu");
@@ -82,10 +81,7 @@ $(function () {
             
             if (data == "success") {
                     console.log(data);
-                    //var classs = $('#validuser').attr('class');
-                    //classs = classs.replace('dropdown-toggle','');
-                    //$('#validuser').attr('class', classs);
-                    
+
                     $('#validuser').html('Sign in');
                     
                     $('#sign').attr("class", "dropdown-menu");
